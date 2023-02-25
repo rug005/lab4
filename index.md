@@ -17,6 +17,7 @@ remote: Total 35 (delta 0), reused 0 (delta 0), pack-reused 35
 Receiving objects: 100% (35/35), 372.19 KiB | 1.39 MiB/s, done.
 Resolving deltas: 100% (12/12), done.
 ```
+![Image]
 Step 6: Run the tests, demonstrating that they fail
 Step 7: Edit the code file to fix the failing test
 Step 8: Run the tests, demonstrating that they now succeed
