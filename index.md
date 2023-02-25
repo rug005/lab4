@@ -29,7 +29,7 @@ We want to go into the directory lab7
 ---
 **Step 7: Edit the code file to fix the failing test**
 For this example I used ctrl-R to search for my previous history.
-![Image](FAILURE.png)
+![Image](FAILURES.png)
 ---
 **Step 8: Run the tests, demonstrating that they now succeed**
 ---
