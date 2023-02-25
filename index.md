@@ -1,13 +1,15 @@
 ## Lab Report 4: Ruben A Gonzalez
 ---
 **Step 4: Log into ieng6**
+---
 ```
 $ ssh cs15lwi23agr@ieng6.ucsd.edu
 (cs15lwi23agr@ieng6.ucsd.edu) Password:
 Last login: Fri Feb 24 16:03:29 2023 from 181.214.70.138
 ```
-
+---
 **Step 5: Clone your fork of the repository from your Github account**
+---
 ```
 [cs15lwi23agr@ieng6-202]:~:509$ git clone git@github.com:rug005/lab7.git
 Cloning into 'lab7'...
@@ -19,11 +21,17 @@ Resolving deltas: 100% (12/12), done.
 ```
 ---
 We want to go into the directory lab7
+---
 ![Image](lab7.png)
 ---
 **Step 6: Run the tests, demonstrating that they fail**
 ![Image](javac.png)
-
+---
 **Step 7: Edit the code file to fix the failing test**
+For this example I used ctrl-R to search for my previous history.
+![Image](FAILURE.png)
+---
 **Step 8: Run the tests, demonstrating that they now succeed**
+---
 **Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)**
+---
