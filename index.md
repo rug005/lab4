@@ -51,6 +51,7 @@ OK (2 tests)
 ```
 ---
 **Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)**
+---
 Using git add
 ```
 [cs15lwi23agr@ieng6-202]:lab7:514$ git add ListExamples.java
