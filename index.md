@@ -51,8 +51,12 @@ OK (2 tests)
 ```
 ---
 **Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)**
+Using git add
 ```
 [cs15lwi23agr@ieng6-202]:lab7:514$ git add ListExamples.java
+```
+Using git commit
+```
 [cs15lwi23agr@ieng6-202]:lab7:515$ git commit -m "update"
 [main 20eddab] update
  Committer: Ruben A Gonzalez <cs15lwi23agr@ieng6-202.ucsd.edu>
@@ -69,6 +73,9 @@ After doing this, you may fix the identity used for this commit with:
     git commit --amend --reset-author
 
  1 file changed, 1 insertion(+), 1 deletion(-)
+ ```
+ Using git push
+ ```
 [cs15lwi23agr@ieng6-202]:lab7:516$ git push origin main 
 Warning: Permanently added the RSA host key for IP address '140.82.114.4' to the list of known 
 hosts.
