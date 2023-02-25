@@ -37,6 +37,50 @@ For example:
 ![Image](edit.png)
 ---
 **Step 8: Run the tests, demonstrating that they now succeed**
+```
+[cs15lwi23agr@ieng6-202]:lab7:513$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+[cs15lwi23agr@ieng6-202]:lab7:513$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore 
+ListExamplesTests
+JUnit version 4.13.2
+..
+Time: 0.014
+
+OK (2 tests)
+
+[cs15lwi23agr@ieng6-202]:lab7:514$
+```
 ---
 **Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)**
+```
+[cs15lwi23agr@ieng6-202]:lab7:514$ git add ListExamples.java
+[cs15lwi23agr@ieng6-202]:lab7:515$ git commit -m "update"
+[main 20eddab] update
+ Committer: Ruben A Gonzalez <cs15lwi23agr@ieng6-202.ucsd.edu>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+[cs15lwi23agr@ieng6-202]:lab7:516$ git push origin main 
+Warning: Permanently added the RSA host key for IP address '140.82.114.4' to the list of known 
+hosts.
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 354 bytes | 354.00 KiB/s, done.
+Total 3 (delta 1), reused 1 (delta 1), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:rug005/lab7.git
+   f750e52..20eddab  main -> main
+[cs15lwi23agr@ieng6-202]:lab7:517$ 
+```
 ---
