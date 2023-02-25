@@ -31,6 +31,11 @@ We want to go into the directory lab7
 For this example I used ctrl-R to search for my previous history.
 ![Image](FAILURES.png)
 ---
+Now we have to fix the error by using a command called nano.
+For example:
+![Image](nanoList.png)
+![Image](edit.png)
+---
 **Step 8: Run the tests, demonstrating that they now succeed**
 ---
 **Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)**
