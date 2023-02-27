@@ -25,9 +25,11 @@ We want to go into the directory lab7
 ![Image](lab7.png)
 ---
 **Step 6: Run the tests, demonstrating that they fail**
+---
 ![Image](javac.png)
 ---
 **Step 7: Edit the code file to fix the failing test**
+---
 For this example I used ctrl-R to search for my previous history.
 ![Image](FAILURES.png)
 ---
