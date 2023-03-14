@@ -32,7 +32,9 @@ We want to go into the directory lab7
 ---
 ![Image](lab7.png)
 ---
+
 **Step 6: Run the tests, demonstrating that they fail**
+
 ---
 ![Image](javac.png)
 
