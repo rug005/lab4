@@ -56,7 +56,7 @@ Now we have to fix the error by using a command called nano.
 ---
  
 For example:
- ---
+ 
  >
 ![Image](nanoList.png)
  ---
