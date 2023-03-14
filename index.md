@@ -54,6 +54,7 @@ Then type out javac -cp<ENTER>
 Now we have to fix the error by using a command called nano.
 >
 ---
+ 
 For example:
  ---
  >
