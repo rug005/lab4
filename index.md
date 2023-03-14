@@ -1,5 +1,6 @@
 ## Lab Report 4: Ruben A Gonzalez
 ---
+
 **Step 4: Log into ieng6**
 ---
 To sign in type the command *ssh < space > [username]* to log in to the server.
@@ -11,6 +12,7 @@ $ ssh cs15lwi23agr@ieng6.ucsd.edu
 Last login: Fri Feb 24 16:03:29 2023 from 181.214.70.138
 ```
 ---
+
 **Step 5: Clone your fork of the repository from your Github account**
 ---
 To clone the repository type the command *git clone <CTRL+v>* to paste the repository.
