@@ -53,7 +53,7 @@ Then type out javac -cp<ENTER>
  javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
  ```
  ---
- We then <CTRL+P> *java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamples.java*
+ We then <CTRL+P> or <Right click> on mouse *java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamples.java*
  ---
 ![Image](FAILURES.png)
 ---
