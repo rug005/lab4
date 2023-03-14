@@ -13,7 +13,7 @@ Last login: Fri Feb 24 16:03:29 2023 from 181.214.70.138
 ---
 **Step 5: Clone your fork of the repository from your Github account**
 ---
-To clone the repository type the command *git clone <cmd+v>* to paste the repository.
+To clone the repository type the command *git clone <CTRL+v>* to paste the repository.
 ```
 [cs15lwi23agr@ieng6-202]:~:509$ git clone git@github.com:rug005/lab7.git
 Cloning into 'lab7'...
@@ -36,12 +36,33 @@ We want to go into the directory lab7
 
 **Step 7: Edit the code file to fix the failing test**
 ---
-For this example I used ctrl-R to search for my previous history.
+For this example I used <CTRL+R> to search for my previous history.
+>
+Then type out javac -cp<ENTER>
+ ```
+ (reverse-i-search)`javac -cp': javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+ ```
+ After pressing enter it'll compile it.
+ ```
+ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
+ ```
+ ---
+ We then <CTRL+P> *java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore ListExamples.java*
+ ---
 ![Image](FAILURES.png)
 ---
 Now we have to fix the error by using a command called nano.
+>
+---
 For example:
+ ---
+ >
 ![Image](nanoList.png)
+ ---
+ >
+ 
+ After this we want to press the keys down(x42) and right(x12). After this we will replace the 1 with a 2.
+---
 ![Image](edit.png)
 ---
 **Step 8: Run the tests, demonstrating that they now succeed**
