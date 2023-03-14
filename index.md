@@ -2,6 +2,9 @@
 ---
 **Step 4: Log into ieng6**
 ---
+To sign in type the command *ssh space [username]* to log in to server.
+>
+Tip: An easier way to log in to server is to do <CTRL+R> and then <cse+tab>
 ```
 $ ssh cs15lwi23agr@ieng6.ucsd.edu
 (cs15lwi23agr@ieng6.ucsd.edu) Password:
@@ -10,6 +13,7 @@ Last login: Fri Feb 24 16:03:29 2023 from 181.214.70.138
 ---
 **Step 5: Clone your fork of the repository from your Github account**
 ---
+To clone the repository type the command *git clone <cmd+v>* to paste the repository.
 ```
 [cs15lwi23agr@ieng6-202]:~:509$ git clone git@github.com:rug005/lab7.git
 Cloning into 'lab7'...
