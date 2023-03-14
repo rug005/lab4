@@ -26,7 +26,9 @@ Receiving objects: 100% (35/35), 372.19 KiB | 1.39 MiB/s, done.
 Resolving deltas: 100% (12/12), done.
 ```
 ---
+
 We want to go into the directory lab7
+
 ---
 ![Image](lab7.png)
 ---
