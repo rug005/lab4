@@ -2,7 +2,7 @@
 ---
 **Step 4: Log into ieng6**
 ---
-To sign in type the command *ssh <space> [username]* to log in to server.
+To sign in type the command *ssh < space > [username]* to log in to server.
 >
 Tip: An easier way to log in to server is to do <CTRL+R> and then <cse+tab>
 ```
