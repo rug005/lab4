@@ -59,7 +59,9 @@ Then type out javac -cp<ENTER>
  ---
 ![Image](FAILURES.png)
 ---
+ 
 Now we have to fix the error by using a command called nano.
+ 
 >
 ---
  
@@ -74,7 +76,9 @@ For example:
 ---
 ![Image](edit.png)
 ---
+ 
 **Step 8: Run the tests, demonstrating that they now succeed**
+ 
 ```
 [cs15lwi23agr@ieng6-202]:lab7:513$ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 [cs15lwi23agr@ieng6-202]:lab7:513$ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore 
@@ -88,7 +92,9 @@ OK (2 tests)
 [cs15lwi23agr@ieng6-202]:lab7:514$
 ```
 ---
+ 
 **Step 9: Commit and push the resulting change to your Github account (you can pick any commit message!)**
+ 
 ---
 Using git add
 ```
